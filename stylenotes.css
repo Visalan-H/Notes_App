@@ -1,0 +1,103 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:'Segoe UI', Tahoma, Verdana, sans-serif;
+    box-sizing:border-box;
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background-image: linear-gradient(to right, #da3068, #c02c81, #9a3695, #68409f, #14469f);
+    color:#ffffff;
+    padding-top: 4%;
+    padding-left: 10%;
+}
+.container h1{
+    display:flex;
+    align-items:center;
+    font-size: 35px;
+    font-weight: 600;
+}
+.container h1 img{
+    width: 60px;
+}
+.container button{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 150px;
+    height: 40px;
+    border: solid;
+    border-color:black;
+    padding: 0px 20px;
+    background-image: linear-gradient(to right, #da3068, #c02c81, #9a3695, #68409f, #14469f);
+    color: white;
+    font-weight: 500;
+    cursor:pointer;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left:10px;
+    transition-duration: .3s;
+  }
+  
+  .container button img{
+    width: 13px;
+    position: absolute;
+    right: 0;
+    margin-right: 20px;
+    fill: white;
+    transition-duration: .3s;
+  }
+  
+  .btn:hover {
+    color: transparent;
+  }
+  
+  .container button:hover img {
+    right: 43%;
+
+    margin: 0;
+    padding: 0;
+    border: none;
+    transition-duration: .3s;
+  }
+  
+  .container button:active {
+    transform: translate(3px , 3px);
+    transition-duration: .3s;
+    box-shadow: 2px 2px 0px #000
+  }
+  .input-box{
+    position: relative;
+    width: 100%;
+    max-width: 500px;
+    min-height: 150px;
+    background: #ffffff;
+    color: #333;
+    padding: 20px;
+    margin: 20px 0;
+    outline: none;
+    border-radius: 6px;
+  }
+  .input-box img{
+    width: 25px;
+    position:absolute;
+    bottom:15px;
+    right:15px;
+    cursor: pointer;
+  }
+  .reset:hover
+  {
+      color:transparent;
+      animation-duration: 0.2s;
+  }
+  .reset img{
+    width: 25px;
+    position:absolute;
+    right: 10px;
+    cursor: pointer;
+    filter: brightness(0) invert(1);
+  }
+  
+
