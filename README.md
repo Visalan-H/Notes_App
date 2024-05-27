@@ -2,7 +2,7 @@
 
 MyNotes is a straightforward note-taking web application developed using HTML, CSS, and JavaScript. It offers a clean and intuitive interface for users to manage their notes efficiently.
 
-![MyNotes App Screenshot](screenshot.png)
+Visit this link: https://visalan-h.github.io/Notes_App/notes.html
 
 ## Features
 
